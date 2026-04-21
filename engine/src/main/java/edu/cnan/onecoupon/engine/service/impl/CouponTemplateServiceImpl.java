@@ -150,7 +150,7 @@ public class CouponTemplateServiceImpl extends ServiceImpl<CouponTemplateMapper,
         // 如果存在直接返回，不存在需要通过双重判定锁的形式读取数据库中的记录
         if (MapUtil.isEmpty(couponTemplateCacheMap)) {
             // 获取优惠券模板分布式锁
-            // 关于缓存击穿更多注释事项，欢迎查看我的B站视频：https://www.bilibili.com/video/BV1qz421z7vC
+            // 关于缓存击穿更多注释事项
             RLock lock = redissonClient.getLock(String.format(EngineRedisConstant.LOCK_COUPON_TEMPLATE_KEY, requestParam.getCouponTemplateId()));
             lock.lock();
 
