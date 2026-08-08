@@ -36,3 +36,19 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Sensitive Config Files ###
+# 各模块数据源配置（含数据库密码）
+**/shardingsphere-config.yaml
+# 各模块应用配置（含 Redis/RocketMQ/Nacos 密码）
+**/application.yaml
+
+### Log Files ###
+.log/
+
+### Temp Files ###
+tmp/
+
+### IDE Workspace ###
+.idea/workspace.xml
+.idea/claudeCodeTabState.xml
