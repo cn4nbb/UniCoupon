@@ -189,6 +189,7 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
 
@@ -201,10 +202,10 @@
                         <!--<eclipse>
                             <file>${maven.multiModuleProjectDirectory}/format/one-coupon_spotless_formatter.xml</file>
                         </eclipse>-->
-                        <licenseHeader>
-                            <!-- ${maven.multiModuleProjectDirectory} 爆红属于正常，并不影响编译或者运行，忽略就好 -->
+                        <!-- 注释掉 licenseHeader：避免 compile 阶段自动给所有 Java 文件追加版权头 -->
+                        <!--<licenseHeader>
                             <file>${maven.multiModuleProjectDirectory}/copyright/copyright.txt</file>
-                        </licenseHeader>
+                        </licenseHeader>-->
                     </java>
                 </configuration>
                 <executions>
