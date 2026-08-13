@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="edu.cnan.onecoupon.merchant.admin.dao.mapper.CouponTemplateMapper">
+<mapper namespace="edu.cnan.unicoupon.merchant.admin.dao.mapper.CouponTemplateMapper">
 
     <!-- 增加优惠券模板发行量 -->
     <update id="increaseNumberCouponTemplate">

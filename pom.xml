@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>edu.cnan.onecoupon</groupId>
-    <artifactId>oneCoupon</artifactId>
+    <groupId>edu.cnan.unicoupon</groupId>
+    <artifactId>unicoupon</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -200,7 +200,7 @@
                 <configuration>
                     <java>
                         <!--<eclipse>
-                            <file>${maven.multiModuleProjectDirectory}/format/one-coupon_spotless_formatter.xml</file>
+                            <file>${maven.multiModuleProjectDirectory}/format/uni-coupon_spotless_formatter.xml</file>
                         </eclipse>-->
                         <!-- 注释掉 licenseHeader：避免 compile 阶段自动给所有 Java 文件追加版权头 -->
                         <!--<licenseHeader>

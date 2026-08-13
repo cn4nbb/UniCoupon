@@ -1,2 +1,2 @@
-edu.cnan.onecoupon.framework.config.WebAutoConfiguration
-edu.cnan.onecoupon.framework.config.IdempotentConfiguration
+edu.cnan.unicoupon.framework.config.WebAutoConfiguration
+edu.cnan.unicoupon.framework.config.IdempotentConfiguration

@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>edu.cnan.onecoupon</groupId>
-        <artifactId>oneCoupon</artifactId>
+        <groupId>edu.cnan.unicoupon</groupId>
+        <artifactId>unicoupon</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>onecoupon-merchant-admin</artifactId>
+    <artifactId>unicoupon-merchant-admin</artifactId>
 
     <dependencies>
         <dependency>
@@ -33,7 +33,7 @@
         <!-- 牛券基础架构组件包相关依赖 -->
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>onecoupon-framework</artifactId>
+            <artifactId>unicoupon-framework</artifactId>
             <version>${project.version}</version>
         </dependency>
 

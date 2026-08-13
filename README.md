@@ -98,9 +98,9 @@
 ## 项目结构
 
 ```
-oneCoupon/
+UniCoupon/
 ├── framework/                    # 基础架构模块
-│   └── src/main/java/edu/cnan/onecoupon/framework/
+│   └── src/main/java/edu/cnan/unicoupon/framework/
 │       ├── config/               # 自动装配配置
 │       │   ├── IdempotentConfiguration.java
 │       │   └── WebAutoConfiguration.java
@@ -121,12 +121,12 @@ oneCoupon/
 │           ├── GlobalExceptionHandler.java
 │           └── Results.java
 ├── gateway/                      # 网关模块
-│   └── src/main/java/edu/cnan/onecoupon/gateway/
+│   └── src/main/java/edu/cnan/unicoupon/gateway/
 │       ├── filter/
 │       │   └── RequestLoggingFilter.java
 │       └── GatewayApplication.java
 ├── merchant-admin/               # 商户后台管理模块
-│   └── src/main/java/edu/cnan/onecoupon/merchant/admin/
+│   └── src/main/java/edu/cnan/unicoupon/merchant/admin/
 │       ├── controller/
 │       │   ├── CouponTaskController.java
 │       │   └── CouponTemplateController.java
@@ -143,7 +143,7 @@ oneCoupon/
 │       │   └── event/            # 消息事件
 │       └── job/                  # XXL-Job 处理器
 ├── distribution/                 # 分发模块
-│   └── src/main/java/edu/cnan/onecoupon/distribution/
+│   └── src/main/java/edu/cnan/unicoupon/distribution/
 │       ├── dao/
 │       │   ├── entity/           # CouponTaskDO / CouponTemplateDO / UserCouponDO
 │       │   ├── mapper/
@@ -154,13 +154,13 @@ oneCoupon/
 │       └── service/handler/
 │           └── excel/            # Excel 读取监听器
 ├── engine/                       # 引擎模块
-│   └── src/main/java/edu/cnan/onecoupon/engine/
+│   └── src/main/java/edu/cnan/unicoupon/engine/
 │       ├── controller/           # CouponTemplateController
 │       └── service/
 ├── settlement/                   # 结算模块
-│   └── src/main/java/edu/cnan/onecoupon/settlement/
+│   └── src/main/java/edu/cnan/unicoupon/settlement/
 └── search/                       # 搜索模块
-    └── src/main/java/edu/cnan/onecoupon/search/
+    └── src/main/java/edu/cnan/unicoupon/search/
 ```
 
 ## 快速开始
@@ -181,7 +181,7 @@ oneCoupon/
 
 ```bash
 git clone <repository-url>
-cd oneCoupon
+cd unicoupon
 ```
 
 2. **配置数据库**

@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="edu.cnan.onecoupon.distribution.dao.mapper.CouponTemplateMapper">
+<mapper namespace="edu.cnan.unicoupon.distribution.dao.mapper.CouponTemplateMapper">
 
     <!-- 通过 MySQL 条件更新确保库存不会被多扣，并采用上层业务自旋重试直至成功将优惠券库存扣减至零 -->
     <update id="decrementCouponTemplateStock">
